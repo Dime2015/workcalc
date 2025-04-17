@@ -269,6 +269,10 @@ document.addEventListener('DOMContentLoaded', function() {
         resultContent.innerHTML = `
             <h3>${calculatedResult.result.title}</h3>
             <p class="result-description">${calculatedResult.result.description}</p>
+            <div class="friend-invitation" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px dashed #e0e0e0;">
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 1rem;">如果你也在日本东京，觉得这个还挺有意思的话，来和我交朋友吧。</p>
+                <img src="1.jpeg" alt="交友邀请" style="max-width: 200px; height: auto; margin: 0 auto; display: block; border-radius: 5px;">
+            </div>
         `;
         
         // 显示结果容器，但不隐藏问卷
